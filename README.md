@@ -1,6 +1,27 @@
 # react-native-template-santospatrick
 > 📱 🔮 Personal template for react-native-cli
 
+## Setup
+1. Initialize your RN project with this command:
+
+```bash
+npx react-native init AwesomeProject --template santospatrick
+```
+
+2. Delete `~/App.js`
+
+3. Duplicate `.env.example` to `.env` and `.env.production` fulfilling variables as needed
+
+4. Done 🎉
+
+## Android
+
+Add these lines to `dependencies` at `android/app/build.gradle`:
+```
+implementation 'androidx.appcompat:appcompat:1.1.0-rc01'
+implementation 'androidx.swiperefreshlayout:swiperefreshlayout:1.1.0-alpha02'
+```
+
 ## Features
 - [x] [Module Resolver](https://github.com/tleunen/babel-plugin-module-resolver)
 - [x] [ESLint](https://github.com/santospatrick/eslint-config-react)/[Prettier](https://github.com/santospatrick/prettier-config)
