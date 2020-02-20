@@ -1,7 +1,7 @@
 # react-native-template-santospatrick
 > 📱 🔮 Personal template for react-native-cli
 
-## Setup
+## Usage
 1. Initialize your RN project with this command:
 
 ```bash
